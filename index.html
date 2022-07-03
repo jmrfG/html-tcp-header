@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styling/main.css">
+    <title>TCP Header</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>
+            TCP HEADER
+        </h1>
+    </div>
+    <div class="bits">
+        <div class="fb">
+            <p>0</p>
+        </div>
+        <div class="sb">
+            <p>15 - 16</p>
+        </div>
+        <div class="tb">
+            <p>31</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="fd d2">
+            <div class="sd">
+                <p>
+                    Source Port
+                </p>
+            </div>
+            <div class="sd">
+                <p>
+                    Destination Port
+                </p>
+            </div>
+        </div>
+        <div class="fd">
+            <p>
+                Sequence Number
+            </p>
+        </div>
+        <div class="fd">
+            <p>
+                Acknowledgement Number
+            </p>
+        </div>
+        <div class="fd d2">
+            <div class="sd">
+                <div class="td">
+                    <p>
+                        Data Offset
+                    </p>
+                </div>
+                <div class="td">
+                    <p>
+                        Reserved
+                    </p>
+                </div>
+                <div class="td esp">
+                    <div class="qd">
+                        <p>
+                            URG
+                        </p>
+                    </div>
+                    <div class="qd">
+                        <p>
+                            ACK
+                        </p>
+                    </div>
+                    <div class="qd">
+                        <p>PSH</p>
+                    </div>
+                    <div class="qd">
+                        <p>RST</p>
+                    </div>
+                    <div class="qd">
+                        <p>SYN</p>
+                    </div>
+                    <div class="qd">
+                        <p>FIN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sd">
+                <p>
+                    Window Size
+                </p>
+            </div>
+        </div>
+        <div class="fd d2">
+            <div class="sd">
+                <p>
+                    Checksum
+                </p>
+            </div>
+            <div class="sd">
+                <p>
+                    Urgent Pointer
+                </p>
+            </div>
+        </div>
+        <div class="fd">
+            <p>
+                Options
+            </p>
+        </div>
+        <div class="fd">
+            <p>
+                Data
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

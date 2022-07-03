@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    box-sizing: border-box;
+    color: green;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bits {
+    display: flex;
+}
+
+.bits .fb {
+    flex: 1;
+    display: flex;
+    color: red;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+
+.bits .sb {
+    flex: 1;
+    display: flex;
+    color: red;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.bits .tb {
+    flex: 1;
+    display: flex;
+    color: red;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 0px 10px;
+    border:2px solid white;
+}
+
+
+
+
+.container .fd {
+    height: 100px;
+    border: 0.5px solid white;
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+
+
+.container p{
+    display: inherit;
+    font-size: 28px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.container .fd.d2 {
+    display: flex;
+    height: 100px;
+    border: 0.5px solid white;
+    flex: 1;
+}
+
+.container .fd.d2 .sd {
+    display: flex;
+    height: auto;
+    border: 0.5px solid white;
+    flex: 1;
+}
+
+.container .fd.d2 .sd .td {
+    display: flex;
+
+    height: auto;
+    border: 0.5px solid white;
+    flex: 2;
+}
+
+.container .fd.d2 .sd .td.esp {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border: 0.5px solid white;
+    flex: 1;
+}
+
+.container .fd.d2 .sd .td.esp p {
+    writing-mode: vertical-rl;
+    line-height: 30px;
+    text-orientation: upright;
+}
+
+
+
+.container .fd.d2 .sd .td.esp .qd {
+    height: auto;
+    border: 0.5px solid white;
+    flex: 1;
+}
