@@ -63,6 +63,11 @@ body {
     margin: 0 auto;
 }
 
+.container p a {
+  text-decoration: none;
+
+}
+
 
 .container .fd.d2 {
     display: flex;
