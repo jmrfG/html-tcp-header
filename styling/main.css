@@ -39,8 +39,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    height: 500px;
-    margin: 0px 10px;
+    height: 700px;
+    margin: 0px 20px;
     border:2px solid white;
 }
 
@@ -59,13 +59,25 @@ body {
 .container p{
     display: inherit;
     font-size: 28px;
+    width: 100%;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
 }
 
-.container p a {
-  text-decoration: none;
+.container p:hover{
+    background-color: blue;
+    color: white;
+}
 
+.container p a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.container p a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -82,6 +94,7 @@ body {
     border: 0.5px solid white;
     flex: 1;
 }
+
 
 .container .fd.d2 .sd .td {
     display: flex;

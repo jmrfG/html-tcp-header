@@ -14,10 +14,25 @@ body {
 .container {
     height: 700px;
     width: 500px;
-    margin: 0px 10px;
     border:2px solid white;
 }
 
 .container p {
-    font-size: large;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.extra {
+    text-align: left;
+    margin: 0 20px;;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
 }
