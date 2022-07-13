@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styling/gen.css">
+    <title>Acknowledgement Number</title>
+</head>
+
+<body>
+    <div class="intro">
+        <h1>Acknowledgement Number</h1>
+    </div>
+    <div class="container">
+        <p>
+            At offset 64 is the acknowledgement number. This number is a counter to keep track of every byte that has
+            been received.
+            If 1000 bytes are received by a host, it increases the acknowledgement number by 1000 when it sends out a
+            packet in
+            response. </p>
+        <iframe width="400px" height="400px" src="https://www.youtube.com/embed/UYJP-6mhF6E"
+            title="3.5-1 TCP Reliability, Flow Control, and Connection Management" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="extra">
+            <h3>References:</h3>
+            <ul>
+                <li>
+                    <a
+                        href="https://www.ibm.com/docs/en/zos-basic-skills?topic=layer-transmission-control-protocol-tcp">
+                        IBM Networking
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gaia.cs.umass.edu/kurose_ross/index.php">Kurose's website</a>
+                </li>
+                <li>
+                    <a href="https://www.ietf.org/rfc/rfc793.txt">RFC 793</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <a href="../index.html" class="back">Go back</a>
+</body>
+
+</html>
